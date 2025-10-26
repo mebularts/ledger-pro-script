@@ -6,11 +6,12 @@
   <a href="https://github.com/mebularts/ledger-pro-script/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/mebularts/ledger-pro-script?style=for-the-badge"></a>
   <a href="https://github.com/mebularts/ledger-pro-script/forks"><img alt="Forks" src="https://img.shields.io/github/forks/mebularts/ledger-pro-script?style=for-the-badge"></a>
   <a href="https://github.com/mebularts/ledger-pro-script/issues"><img alt="Issues" src="https://img.shields.io/github/issues/mebularts/ledger-pro-script?style=for-the-badge"></a>
-  <a href="https://github.com/mebularts/ledger-pro-script/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/mebularts/ledger-pro-script?style=for-the-badge"></a>
   <img alt="Repo Size" src="https://img.shields.io/github/repo-size/mebularts/ledger-pro-script?style=for-the-badge">
   <img alt="Code Size" src="https://img.shields.io/github/languages/code-size/mebularts/ledger-pro-script?style=for-the-badge">
   <img alt="Top Language" src="https://img.shields.io/github/languages/top/mebularts/ledger-pro-script?style=for-the-badge">
-  <a href="https://hits.seeyoufarm.com"><img alt="Views" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/mebularts/ledger-pro-script&title=views&edge_flat=false&count_bg=%235B9BFF&title_bg=%23000000"></a>
+    <a href="https://hits.sh/github.com/mebularts/ledger-pro-script/">
+    <img alt="Views" src="https://hits.sh/github.com/mebularts/ledger-pro-script.svg?style=for-the-badge&label=views">
+  </a>
 </p>
 
 <p align="center">
