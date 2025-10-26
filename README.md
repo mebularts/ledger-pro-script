@@ -6,7 +6,6 @@
   <a href="https://github.com/mebularts/ledger-pro-script/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/mebularts/ledger-pro-script?style=for-the-badge"></a>
   <a href="https://github.com/mebularts/ledger-pro-script/forks"><img alt="Forks" src="https://img.shields.io/github/forks/mebularts/ledger-pro-script?style=for-the-badge"></a>
   <a href="https://github.com/mebularts/ledger-pro-script/issues"><img alt="Issues" src="https://img.shields.io/github/issues/mebularts/ledger-pro-script?style=for-the-badge"></a>
-  <img alt="Repo Size" src="https://img.shields.io/github/repo-size/mebularts/ledger-pro-script?style=for-the-badge">
   <img alt="Code Size" src="https://img.shields.io/github/languages/code-size/mebularts/ledger-pro-script?style=for-the-badge">
   <img alt="Top Language" src="https://img.shields.io/github/languages/top/mebularts/ledger-pro-script?style=for-the-badge">
     <a href="https://hits.sh/github.com/mebularts/ledger-pro-script/">
