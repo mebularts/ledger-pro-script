@@ -1,0 +1,1 @@
+"use client";import { useTheme } from 'next-themes'; export default function ThemeToggle(){ const {theme,setTheme,systemTheme}=useTheme(); const current=theme==='system'?systemTheme:theme; const next=current==='dark'?'light':'dark'; return <button className='btn' onClick={()=>setTheme(next!)}>{current==='dark'?'🌙 Dark':'☀️ Light'}</button>; }

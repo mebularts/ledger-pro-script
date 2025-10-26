@@ -1,0 +1,1 @@
+"use client";import { useLang } from '@/i18n/lang'; export default function LangToggle(){ const {locale,setLocale}=useLang(); return <button className='btn' onClick={()=>setLocale(locale==='en'?'tr':'en')}>{locale.toUpperCase()}</button>; }

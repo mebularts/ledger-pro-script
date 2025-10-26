@@ -1,0 +1,1 @@
+import type { Config } from 'tailwindcss'; export default { content:['./src/**/*.{ts,tsx}'], darkMode:'class', theme:{ extend:{ borderRadius:{'2xl':'1.25rem'}, boxShadow:{soft:'0 10px 30px -12px rgba(0,0,0,.2)'} } }, plugins:[] } satisfies Config;
