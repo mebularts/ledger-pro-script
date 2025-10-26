@@ -13,17 +13,10 @@
   <a href="https://hits.seeyoufarm.com"><img alt="Views" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/mebularts/ledger-pro-script&title=views&edge_flat=false&count_bg=%235B9BFF&title_bg=%23000000"></a>
 </p>
 
-<!-- Contact badges (top) -->
 <p align="center">
-  <a href="https://mebularts.com.tr">
-    <img alt="Website" src="https://img.shields.io/badge/website-mebularts.com.tr-0E8EE9?style=for-the-badge&logo=icloud&logoColor=white">
-  </a>
-  <a href="https://wa.me/12513160268">
-    <img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-+1%20251%20316%200268-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
-  </a>
-  <a href="https://t.me/mebularts">
-    <img alt="Telegram" src="https://img.shields.io/badge/Telegram-@mebularts-26A5E4?style=for-the-badge&logo=telegram&logoColor=white">
-  </a>
+  <a href="https://mebularts.com.tr"><img alt="Website" src="https://img.shields.io/badge/website-@mebularts-0E8EE9?style=for-the-badge&logo=icloud&logoColor=white"></a>
+  <a href="https://wa.me/12513160268"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-@mebularts-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
+  <a href="https://t.me/mebularts"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-@mebularts-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"></a>
 </p>
 
 ---
@@ -83,7 +76,7 @@ COOKIE_SECURE="false"
 
 ```
 src/
-  app/                 # routes + API
+  app/
     dashboard/
     contacts/
     invoices/
@@ -96,8 +89,8 @@ src/
   components/
   i18n/
     dict.ts
-    lang.tsx          # client provider
-    server.tsx        # SSR cookies -> initial locale
+    lang.tsx
+    server.tsx
   lib/
     prisma.ts
     session.ts
@@ -111,8 +104,8 @@ prisma/
 
 ## 🌐 i18n & Theme
 
-- **i18n (EN/TR):** locale cookie (`lang`) read on **SSR**; passed as `initialLocale` to `LangProvider` (prevents hydration mismatch).
-- **Theme:** `next-themes` controls `class` on `<html>` for **system/dark/light**.
+- **i18n (EN/TR):** locale cookie (`lang`) read on SSR; passed as `initialLocale` to `LangProvider`.
+- **Theme:** `next-themes` controls `class` on `<html>` for system/dark/light.
 
 ---
 
@@ -134,9 +127,9 @@ prisma/
 ## ☁️ Deploy (Vercel)
 
 1. Import repo to Vercel.
-2. Set **Environment Variables** from `.env`.
+2. Set Environment Variables from `.env`.
 3. Use a managed MySQL (PlanetScale, Railway, Aiven, etc.).
-4. Run `prisma migrate deploy` once (CI/CD step or manual).
+4. Run `prisma migrate deploy` once.
 
 ---
 
@@ -148,8 +141,6 @@ prisma/
   <a href="https://github.com/mebularts/ledger-pro-script"><img alt="Top Language" src="https://img.shields.io/github/languages/top/mebularts/ledger-pro-script?label=top%20lang"></a>
   <a href="https://github.com/mebularts/ledger-pro-script/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/mebularts/ledger-pro-script?label=stars&style=social"></a>
 </p>
-
-### Optional GitHub cards (embedded)
 
 <p align="center">
   <a href="https://github-readme-stats.vercel.app/api/pin/?username=mebularts&repo=ledger-pro-script">
@@ -163,61 +154,24 @@ prisma/
   </a>
 </p>
 
-**Raw URLs (copy‑paste ready):**
-```
-https://github-readme-stats.vercel.app/api/pin/?username=mebularts&repo=ledger-pro-script
-https://github-readme-stats.vercel.app/api?username=mebularts&show_icons=true
-```
-
----
-
-## 🧩 Troubleshooting
-
-- **Hydration mismatch (text):** Ensure SSR reads `lang` cookie and passes `initialLocale` to `LangProvider`.
-- **Hydration mismatch (inputs):** For free‑text inputs add `spellCheck={false}`, `autoComplete="off"`, `suppressHydrationWarning`.
-- **Prisma P1012:** Clean `schema.prisma` from stray characters (`@'` or `'@`), then `npx prisma format && npx prisma validate`.
-
----
-
-## 🗺 Roadmap
-
-- [ ] Invoice PDF
-- [ ] Charts (monthly income/expense)
-- [ ] Multi‑currency & FX
-- [ ] Roles & permissions
-- [ ] File uploads (S3)
-- [ ] Email for invoices
-- [ ] Tests (Playwright/Jest)
-
 ---
 
 ## 👨‍💻 Developer
 
 **Name:** mebularts  
 **Role:** Full‑stack Developer  
-**GitHub:** https://github.com/mebularts  
-**Website:** https://mebularts.com.tr  
-**WhatsApp:** https://wa.me/12513160268  
-**Telegram:** https://t.me/mebularts
+**GitHub:** [@mebularts](https://github.com/mebularts)  
+**Website:** [@mebularts](https://mebularts.com.tr)  
+**WhatsApp:** [@mebularts](https://wa.me/12513160268)  
+**Telegram:** [@mebularts](https://t.me/mebularts)
 
 ---
 
 ## 📞 Contact & Support
  
-- **Website:** https://mebularts.com.tr  
-- **WhatsApp:** https://wa.me/12513160268  
-- **Telegram:** https://t.me/mebularts
-
----
-
-## 📈 Project Analytics (Optional)
-
-- **Visitors Counter:**  
-  ```
-  https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/mebularts/ledger-pro-script
-  ```
-
-- **Traffic:** GitHub → Insights → Traffic
+- **Website:** [@mebularts](https://mebularts.com.tr)  
+- **WhatsApp:** [@mebularts](https://wa.me/12513160268)  
+- **Telegram:** [@mebularts](https://t.me/mebularts)
 
 ---
 
